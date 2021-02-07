@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/*
+	Class Project
+	CSS
+	Author: Danielle Stratton
+	Date: 24JAN2021
+	
+	Filename: style.css
+	
+*/
+/* Structural Styles*/
+/*M3LO1*/
+article, aside, figure, footer, header, nav, section {
+	display: block;
+}
+/*M4LO3*/
+body > header {
+	border-bottom-left-radius: 50px 50px;
+	border-top-left-radius: 50px 50px;
+	border-top-right-radius: 50px 50px;
+	border-bottom-right-radius: 50px 50px;
+}
+
+nav a {
+	text-decoration: none;
+	border-radius: top-left top-right bottom-left bottom-right;
+}
+
+/* Floating Styles */
+/*M3LO2: I dont think it is actully floating though. */
+nav li {
+	display: block;
+	float: left;
+	center: 20%;
+	width: 20%;
+}
+/*M3LO3: i wanted it to float to the left.*/
+section#left {
+	clear: left;
+	float: left;
+	width: 50%;
+}
+
+/*section#right {
+	clear: right;
+	float: right;
+	width: 50%;
+}
+*/
+section#lefttwo {
+	clear: left;
+	float: left;
+	width: 50%;
+}
+
+section#righttwo {
+	clear: right;
+	float: right;
+	width: 50%;
+}
+
+/* positioning */
+
+/*section#righttwo {
+	postion: absolute;
+	bottom: 40%;
+	right: 50%;
+	
+}*/
+/*M3LO8A: it placed it to the right*/
+/*M2LO6*/
+section#right {
+	position: ablsoute;
+	right: 50%
+}
+/*M3LO8B: i got it placed in the center in about 20px from the top.*/
+/*M4LO5: this create a nice shadow on the image on my home page*/
+body > figure > img {
+	position: relative;
+	top: 20px;
+	left: 550px;
+	box-shadow: rgb(105, 105, 105) 10px 5px 25px,
+				rgb(105, 105, 105) -10px 5px 25px;
+}	
+/*M3LO9: this is fixed with the page and will move with it.*/
+/*M2LO6*/
+footer#foottwo {
+	position: fixed;
+	bottom: 5px;
+	left: 450px;
+}
+
+/* overflow*/
+/*M3LO10 and M4LO6*/
+body {
+	overflow: auto;
+	height: 450;
+	width: 100%;
+	opacity: 1.0;
+}
+/*M4LO2*/
+html#htmltwo {
+	background-image: url(C:\Users\dmger\CIS155\OC_Danielle_Stratton_CIS155_W2021\V2\girl.png);
+}
