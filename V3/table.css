@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*
+	Class Project
+	CSS
+	Author: Danielle Stratton
+	Date: 20FEB2021
+	
+	Filename: table.css
+	
+*/
+/* Table Styles */
+table {
+	border: 3px solid green;
+}
+
+table th, table td {
+	border: 2px solid green;
+	line-height: 2.0em;
+	padding: 8px;
+}
+
+table th {
+	background-color: grey ;
+	font-weight: normal;
+}
+
+table td {
+	color: black;
+	font-size: 0.9em;
+	vertical-align: text-top;
+}
+
+/* Column Styles */
+
+
+
+/* Table Header Styles */
+
+table thead tr:first-of-type th:not(:first-of-type)
+{
+	background-color: transparent;
+	color: grey;
+}

@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/*
+	Class Project
+	CSS
+	Author: Danielle Stratton
+	Date: 24JAN2021
+	
+	Filename: style.css
+	
+*/
+
+
+
+/* Structural Styles */
+/*!--M2LO14 this how to get the color you want to be lighter or darker-->*/
+/*M4LO4*/
+html { 
+  background: linear-gradient(180deg, rgb(169, 169, 169), rgb(255, 255, 255) 50%);
+  background-color: hsl(0, 0%, 96%)
+}
+
+body > p {
+  font-size: 2.0em; /*<!--M2LO5-->*/
+  text-align: center;
+}
+/*<!--M2LO15-->*/
+header {
+  background-color: rgb(235, 177, 131);
+  background-color: hsl(91, 65%, 55%);
+  font-style: oblique;
+  text-align: center;
+  font-family: Linotype;
+  font-size: 2em; /*<!--M2LO5-->*/
+}
+
+body > img src {
+	text-align: center;
+	box-shadow: rgb(51, 51, 51) 15px 0px 25px,
+				rgb(51, 51, 51) -15px 0px 25px;
+}
+/*<!--M2LO3-->*/
+body > h1 {
+	color: green;
+	text-align: center;
+	
+}
+/*<!--M2LO13-->*/
+p {
+  margin: 0;
+  padding: 5px 25px 25px 25px;
+  font-size: 1.5em;
+  text-align: center;
+  
+}
+/*<!--M1LO3-->*/
+nav li {
+	line-height: 1.5em; /*<!--M1LO5-->*/
+	font-style: italic;
+	background-color: white;
+	font-size: 1.5em;	
+	text-align: center;
+	
+}
+
+body > li {
+	
+}
+
+body > ul {
+	line-height: 1.5em; /*<!--M1LO13-->*/
+}
+/*<!--M2LO11-->*/
+li:nth-of-type(even) {
+	color: green;
+	font-weight: 10%;
+}
+/*<!--M2LO11-->*/
+li:nth-of-type(odd) {
+	color: black;
+	font-weight: ;10%
+}
+
